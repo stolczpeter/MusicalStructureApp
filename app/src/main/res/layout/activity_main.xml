@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical"
+    tools:context="com.example.peterstolcz.musicalstructureapp.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"
+        android:layout_weight="0.6"
+        android:background="#000"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/menu"
+            style="@style/MenuStyle"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:fontFamily="sans-serif-smallcaps"
+            android:layout_marginLeft="8dp"
+            android:textStyle="bold"
+            android:text="@string/menu"
+            android:textSize="34dp" />
+
+        <View
+            android:layout_marginLeft="8dp"
+            android:layout_width="135dp"
+            android:layout_height="4dp"
+            android:layout_below="@+id/menu"
+            android:background="#ffffff">
+
+        </View>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:elevation="8dp">
+
+        <ImageView
+            android:id="@+id/mymusicimage"
+            style="@style/MenuStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center_vertical"
+            android:scaleType="fitStart"
+            android:background="@drawable/mymusic"
+            android:text="@string/menu"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/mymusic"
+            style="@style/CustomStyle"
+            android:layout_centerVertical="true"
+            android:textColor="#fff"
+            android:layout_marginLeft="8dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/mainmenu1"
+            android:textSize="30dp"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:elevation="8dp">
+
+        <ImageView
+            style="@style/MenuStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:background="@drawable/concert"
+            android:text="@string/menu" />
+
+        <TextView
+            android:id="@+id/genre"
+            style="@style/ShuffleStyle"
+            android:textColor="#fff"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/mainmenu2"
+            android:textSize="30dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:elevation="8dp">
+
+        <ImageView
+            android:id="@+id/menu3"
+            style="@style/MenuStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center_vertical"
+            android:scaleType="fitStart"
+            android:background="@drawable/rock"
+            android:text="@string/menu"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/artists"
+            style="@style/CustomStyle"
+            android:layout_centerVertical="true"
+            android:textColor="#fff"
+            android:layout_marginLeft="8dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/mainmenu3"
+            android:textSize="30dp"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:elevation="8dp">
+
+        <ImageView
+            android:id="@+id/radioimage"
+            style="@style/MenuStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center_vertical"
+            android:scaleType="fitStart"
+            android:background="@drawable/radio"
+            android:text="@string/menu"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/radio"
+            style="@style/CustomStyle"
+            android:layout_centerVertical="true"
+            android:textColor="#fff"
+            android:layout_marginLeft="8dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/mainmenu4"
+            android:textSize="30dp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

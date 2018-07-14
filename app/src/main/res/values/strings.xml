@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MusicalStructureApp</string>
+    <string name="menu">SHUFFLE</string>
+    <string name="mainmenu1">MY MUSIC</string>
+    <string name="mainmenu2">GENRE</string>
+    <string name="mainmenu3">ARTIST</string>
+    <string name="mainmenu4">RADIO</string>
+    <string name="nowplaying">Now playing</string>
+    <string name="artistsong">Unfogiven</string>
+    <string name="artistname">Metaillca</string>
+    <string name="Rock">ROCK</string>
+    <string name="Pop">POP</string>
+    <string name="Jazz">JAZZ</string>
+    <string name="Classical">CLASSICAL</string>
+    <string name="Blues">BLUES</string>
+    <string name="Country">COUNTRY</string>
+    <string name="Metal">METAL</string>
+    <string name="Techno">TECHNO</string>
+    <string name="IRONMAIDEN">IRON MAIDEN</string>
+    <string name="METALLICA">METALLICA</string>
+    <string name="GUNSNROSES">GUNS N ROSES</string>
+    <string name="BEETHOVEN">BEETHOVEN</string>
+    <string name="BJORK">BJORK</string>
+    <string name="PEGGYLEE">PEGGYLEE</string>
+    <string name="ELVISPRESLEY">ELVISPRESLEY</string>
+    <string name="THEOFFSRING">THEOFFSPRING</string>
+    <string name="RADIO1">POP MIX RADIO</string>
+    <string name="RADIO1subtext">Music to cheer you up</string>
+    <string name="RADIO2">ON-THE-GO</string>
+    <string name="RADIO2subtext">All day, every day</string>
+    <string name="RADIO3">CLASSIC MELODIES</string>
+    <string name="RADIO3subtext">Seriously. Music.</string>
+    <string name="Metallicasong">Master of puppets</string>
+    <string name="Metallica">Metallica</string>
+</resources>
