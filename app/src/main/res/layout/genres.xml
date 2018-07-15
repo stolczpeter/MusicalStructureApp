@@ -1,119 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-<GridLayout
-    android:id="@+id/favorites_grid"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#f5f5f5"
-    android:layout_gravity="center"
-    android:columnCount="2"
-    android:rowCount="5">
+    <GridLayout
+        android:id="@+id/favorites_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="#f5f5f5"
+        android:columnCount="2"
+        android:rowCount="5">
 
 
-        <ImageView
+        <ImageButton
             android:id="@+id/rock"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:layout_margin="2dp"
             android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
             android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:alpha=".75"
             android:background="@drawable/rockgenre"
-            android:alpha=".75"/>
+            android:clickable="true"
+            android:focusable="true" />
 
-        <ImageView
+        <ImageButton
             android:id="@+id/pop"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_margin="2dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
             android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
             android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:alpha=".75"
             android:background="@drawable/popgenre"
-            android:alpha=".75"/>
+            android:clickable="true"
+            android:focusable="true" />
 
-    <ImageView
-        android:id="@+id/jazz"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_margin="2dp"
-        android:layout_columnWeight="1"
-        android:layout_rowWeight="1"
-        android:layout_column="1"
-        android:layout_row="1"
-        android:background="@drawable/jazzgenre"
-        android:alpha=".75"/>
-
-        <ImageView
-            android:id="@+id/techo"
+        <ImageButton
+            android:id="@+id/jazz"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_margin="2dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
             android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:alpha=".75"
+            android:background="@drawable/jazzgenre"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <ImageButton
+            android:id="@+id/techno"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
             android:layout_row="0"
-            android:background="@drawable/technogenre"
-            android:alpha=".75"/>
+            android:layout_rowWeight="1"
+            android:alpha=".75"
+            android:background="@drawable/technogenre" />
 
-    <ImageView
-        android:id="@+id/blues"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_margin="2dp"
-        android:layout_columnWeight="1"
-        android:layout_rowWeight="1"
-        android:layout_column="0"
-        android:layout_row="2"
-        android:background="@drawable/bluesconcert"
-        android:alpha=".75"/>
+        <ImageButton
+            android:id="@+id/blues"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:alpha=".75"
+            android:background="@drawable/bluesconcert" />
 
-    <ImageView
-        android:id="@+id/metal"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_margin="2dp"
-        android:layout_columnWeight="1"
-        android:layout_rowWeight="1"
-        android:layout_column="1"
-        android:layout_row="2"
-        android:background="@drawable/metalegnre"
-        android:alpha=".75"/>
+        <ImageButton
+            android:id="@+id/metal"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:alpha=".75"
+            android:background="@drawable/metalegnre" />
 
-    <ImageView
-        android:id="@+id/country"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_margin="2dp"
-        android:layout_columnWeight="1"
-        android:layout_rowWeight="1"
-        android:layout_column="0"
-        android:layout_row="3"
-        android:background="@drawable/countrygenre"
-        android:alpha=".75"/>
+        <ImageButton
+            android:id="@+id/country"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            android:layout_row="3"
+            android:layout_rowWeight="1"
+            android:alpha=".75"
+            android:background="@drawable/countrygenre" />
 
+        <ImageButton
+            android:id="@+id/classical"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            android:layout_row="3"
+            android:layout_rowWeight="1"
+            android:alpha=".75"
+            android:background="@drawable/classicalgenre" />
 
-
-    <ImageView
-        android:id="@+id/classical"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_margin="2dp"
-        android:layout_columnWeight="1"
-        android:layout_rowWeight="1"
-        android:layout_column="1"
-        android:layout_row="3"
-        android:background="@drawable/classicalgenre"
-        android:alpha=".75"/>
-
-</GridLayout>
+    </GridLayout>
 
 
     <GridLayout
@@ -137,59 +140,58 @@
             android:layout_rowWeight="1"
             android:fontFamily="sans-serif-smallcaps"
             android:text="ROCK"
-            android:textStyle="bold"
             android:textColor="#fff"
-            android:textSize="20dp" />
+            android:textSize="25dp"
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="0"
-            android:layout_gravity="center"
             android:layout_columnWeight="1"
+            android:layout_gravity="center"
             android:layout_margin="2dp"
             android:layout_row="1"
             android:layout_rowWeight="1"
             android:fontFamily="sans-serif-smallcaps"
             android:text="@string/Pop"
-            android:textColor="#fff"
-            android:textSize="20dp"
-            android:textStyle="bold"/>
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
             android:layout_column="1"
             android:layout_columnWeight="1"
+            android:layout_gravity="center"
             android:layout_margin="2dp"
             android:layout_row="0"
             android:layout_rowWeight="1"
             android:fontFamily="sans-serif-smallcaps"
             android:text="@string/Techno"
-            android:textColor="#fff"
-            android:textSize="20dp"
-            android:textStyle="bold"/>
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
             android:layout_column="1"
             android:layout_columnWeight="1"
+            android:layout_gravity="center"
             android:layout_margin="2dp"
             android:layout_row="1"
             android:layout_rowWeight="1"
             android:fontFamily="sans-serif-smallcaps"
             android:text="@string/Jazz"
             android:textColor="#fff"
-            android:textSize="20dp"
-            android:textStyle="bold"/>
+            android:textSize="25dp"
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center"
             android:layout_column="0"
             android:layout_columnWeight="1"
             android:layout_gravity="center"
@@ -197,55 +199,56 @@
             android:layout_row="2"
             android:layout_rowWeight="1"
             android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
             android:text="@string/Blues"
             android:textColor="#fff"
-            android:textSize="20dp"
-            android:textStyle="bold"/>
+            android:textSize="25dp"
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
             android:layout_column="1"
             android:layout_columnWeight="1"
+            android:layout_gravity="center"
             android:layout_margin="2dp"
             android:layout_row="2"
             android:layout_rowWeight="1"
             android:fontFamily="sans-serif-smallcaps"
             android:text="@string/Metal"
             android:textColor="#fff"
-            android:textSize="20dp"
-            android:textStyle="bold"/>
+            android:textSize="25dp"
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
             android:layout_column="0"
             android:layout_columnWeight="1"
+            android:layout_gravity="center"
             android:layout_margin="2dp"
             android:layout_row="3"
             android:layout_rowWeight="1"
             android:fontFamily="sans-serif-smallcaps"
             android:text="@string/Country"
             android:textColor="#fff"
-            android:textSize="20dp"
-            android:textStyle="bold"/>
+            android:textSize="25dp"
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
             android:layout_column="1"
             android:layout_columnWeight="1"
+            android:layout_gravity="center"
             android:layout_margin="2dp"
             android:layout_row="3"
             android:layout_rowWeight="1"
             android:fontFamily="sans-serif-smallcaps"
             android:text="@string/Classical"
             android:textColor="#fff"
-            android:textSize="20dp"
-            android:textStyle="bold"/>
+            android:textSize="25dp"
+            android:textStyle="bold" />
 
     </GridLayout>
 </RelativeLayout>

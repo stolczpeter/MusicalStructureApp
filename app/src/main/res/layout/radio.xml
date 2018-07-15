@@ -9,6 +9,7 @@
             android:layout_marginTop="40dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginRight="0dp"
             android:layout_weight="0.3"
             android:padding="16dp">
 
@@ -26,26 +27,35 @@
                 android:id="@+id/radio1"
                 android:layout_toRightOf="@+id/radio1image"
                 android:text="@string/RADIO1"
-                android:layout_marginTop="3dp"
                 android:layout_centerVertical="true"
                 android:layout_alignParentTop="true"
                 android:fontFamily="sans-serif-smallcaps"
                 android:textStyle="bold"
-                android:textSize="28sp"
+                android:textSize="20sp"
                 />
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="120dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="50dp"
-                android:layout_marginLeft="120dp"
-                android:textSize="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="117dp"
+                android:textSize="18dp"
                 android:text="@string/RADIO1subtext"
                 android:gravity="bottom"/>
+
+            <ImageButton
+                android:id="@+id/popmixradio"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/play2"
+                android:scaleType="fitCenter"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" />
 
         </RelativeLayout>
 
     <View
-        android:layout_width="300dp"
+        android:layout_width="320dp"
         android:layout_height="1dp"
         android:background="@android:color/black"
         android:layout_gravity="center_horizontal"
@@ -73,26 +83,35 @@
             android:id="@+id/radio2"
             android:layout_toRightOf="@+id/radio2image"
             android:text="@string/RADIO2"
-            android:layout_marginTop="3dp"
             android:layout_centerVertical="true"
             android:layout_alignParentTop="true"
             android:fontFamily="sans-serif-smallcaps"
             android:textStyle="bold"
-            android:textSize="28sp"
+            android:textSize="20sp"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="80dp"
+            android:layout_marginTop="30dp"
             android:layout_marginLeft="120dp"
-            android:textSize="20dp"
+            android:textSize="18dp"
             android:text="@string/RADIO2subtext"
             android:gravity="bottom"/>
+
+        <ImageButton
+            android:id="@+id/onthegoradio"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/play2"
+            android:scaleType="fitCenter"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
 
     </RelativeLayout>
 
     <View
-        android:layout_width="300dp"
+        android:layout_width="320dp"
         android:layout_height="1dp"
         android:background="@android:color/black"
         android:layout_gravity="center_horizontal"
@@ -102,7 +121,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_weight="0.3"
         android:padding="16dp">
 
         <ImageView
@@ -119,21 +138,30 @@
             android:id="@+id/radio3"
             android:layout_toRightOf="@+id/radio3image"
             android:text="@string/RADIO3"
-            android:layout_marginTop="3dp"
             android:layout_centerVertical="true"
             android:layout_alignParentTop="true"
             android:fontFamily="sans-serif-smallcaps"
             android:textStyle="bold"
-            android:textSize="28sp"
-            />
+            android:textSize="20sp" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="80dp"
+            android:layout_marginTop="30dp"
             android:layout_marginLeft="120dp"
-            android:textSize="20dp"
+            android:textSize="18dp"
             android:text="@string/RADIO3subtext"
             android:gravity="bottom"/>
+
+        <ImageButton
+            android:id="@+id/classicalradio"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/play2"
+            android:scaleType="fitCenter"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
 
     </RelativeLayout>
 

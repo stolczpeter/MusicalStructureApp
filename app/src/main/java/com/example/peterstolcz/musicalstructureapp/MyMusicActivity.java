@@ -46,12 +46,18 @@ public class MyMusicActivity extends AppCompatActivity {
         record.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Object musicobject = parent.getItemAtPosition(position);
-                String value= musicobject.toString();
+                Object musicobject1 = adapter.getItem(position).getSongName();
+                String musiclist1= musicobject1.toString();
+
+                Object musicobject2 = adapter.getItem(position).getArtistName();
+                String musiclist2= musicobject2.toString();
+
                 Intent musicintent = new Intent(MyMusicActivity.this, NowisplayingActivity.class);
-                musicintent.putExtra("SongName", value);
+
+                musicintent.putExtra("SongName", musiclist1);
+                musicintent.putExtra("ArtistName", musiclist2);
+
                 startActivity(musicintent);
-                Log.v("my_tag", "musicdata value is: "+ musicintent);
             }
         });
 

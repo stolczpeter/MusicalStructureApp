@@ -14,9 +14,13 @@ public class NowisplayingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.nowplaying);
 
-        TextView SongTitleTextView = (TextView) findViewById(R.id.songtitle);
-        String musicdata=getIntent().getStringExtra("SongName");
-        SongTitleTextView.setText(musicdata);
+        TextView SongTitleTextView1 = (TextView) findViewById(R.id.songtitle);
+        String musicdata1=getIntent().getStringExtra("SongName");
+        SongTitleTextView1.setText(musicdata1);
+
+        TextView SongTitleTextView2 = (TextView) findViewById(R.id.artistname);
+        String musicdata2=getIntent().getStringExtra("ArtistName");
+        SongTitleTextView2.setText(musicdata2);
 
     }
 }

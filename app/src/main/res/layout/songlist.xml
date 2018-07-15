@@ -39,7 +39,6 @@
             android:id="@+id/imageplayname"
             android:layout_marginTop="10dp"
             android:layout_width="28dp"
-            android:layout_height="28dp"
-            tools:text="SampleArtist" />
+            android:layout_height="28dp"/>
 
 </LinearLayout>
