@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -10,124 +9,123 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#f5f5f5"
-        android:layout_gravity="center"
-        android:columnCount="2"
-        android:rowCount="5"
         android:clickable="true"
-        android:focusable="true">
+        android:columnCount="2"
+        android:focusable="true"
+        android:rowCount="5">
 
 
         <ImageButton
             android:id="@+id/IronMaiden"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:layout_margin="2dp"
             android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
             android:layout_row="0"
-            android:background="@drawable/ironmaiden"
+            android:layout_rowWeight="1"
             android:alpha=".75"
+            android:background="@drawable/ironmaiden"
             android:clickable="true"
-            android:focusable="true"/>
+            android:focusable="true" />
 
         <ImageButton
             android:id="@+id/Mettalica"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_margin="2dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
             android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
             android:layout_row="1"
-            android:background="@drawable/metallica"
+            android:layout_rowWeight="1"
             android:alpha=".75"
+            android:background="@drawable/metallica"
             android:clickable="true"
-            android:focusable="true"/>
+            android:focusable="true" />
 
         <ImageButton
             android:id="@+id/GunsnRoses"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_margin="2dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
             android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
             android:layout_row="1"
-            android:background="@drawable/gunsnroses"
+            android:layout_rowWeight="1"
             android:alpha=".75"
+            android:background="@drawable/gunsnroses"
             android:clickable="true"
-            android:focusable="true"/>
+            android:focusable="true" />
 
         <ImageButton
             android:id="@+id/Beethoven"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_margin="2dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
             android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
             android:layout_row="0"
-            android:background="@drawable/beethoven"
+            android:layout_rowWeight="1"
             android:alpha=".75"
+            android:background="@drawable/beethoven"
             android:clickable="true"
-            android:focusable="true"/>
+            android:focusable="true" />
 
         <ImageButton
             android:id="@+id/TheOffspring"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_margin="2dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
             android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
             android:layout_row="2"
-            android:background="@drawable/offspring"
+            android:layout_rowWeight="1"
             android:alpha=".75"
+            android:background="@drawable/offspring"
             android:clickable="true"
-            android:focusable="true"/>
+            android:focusable="true" />
 
         <ImageButton
             android:id="@+id/Bjork"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_margin="2dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
             android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
             android:layout_row="2"
-            android:background="@drawable/bjork"
+            android:layout_rowWeight="1"
             android:alpha=".75"
+            android:background="@drawable/bjork"
             android:clickable="true"
-            android:focusable="true"/>
+            android:focusable="true" />
 
         <ImageButton
             android:id="@+id/PeggyLee"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_margin="2dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
             android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
             android:layout_row="3"
-            android:background="@drawable/peggylee"
+            android:layout_rowWeight="1"
             android:alpha=".75"
+            android:background="@drawable/peggylee"
             android:clickable="true"
-            android:focusable="true"/>
+            android:focusable="true" />
 
         <ImageButton
             android:id="@+id/ElvisPresley"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_margin="2dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
             android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
             android:layout_row="3"
-            android:background="@drawable/elvispresley"
+            android:layout_rowWeight="1"
             android:alpha=".75"
+            android:background="@drawable/elvispresley"
             android:clickable="true"
-            android:focusable="true"/>
+            android:focusable="true" />
 
     </GridLayout>
 

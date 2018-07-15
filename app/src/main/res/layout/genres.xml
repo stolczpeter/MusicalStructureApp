@@ -8,11 +8,9 @@
         android:id="@+id/favorites_grid"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_gravity="center"
         android:background="#f5f5f5"
         android:columnCount="2"
         android:rowCount="5">
-
 
         <ImageButton
             android:id="@+id/rock"
@@ -118,7 +116,6 @@
 
     </GridLayout>
 
-
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -141,7 +138,7 @@
             android:fontFamily="sans-serif-smallcaps"
             android:text="ROCK"
             android:textColor="#fff"
-            android:textSize="25dp"
+            android:textSize="25sp"
             android:textStyle="bold" />
 
         <TextView
@@ -156,7 +153,7 @@
             android:fontFamily="sans-serif-smallcaps"
             android:text="@string/Pop"
             android:textColor="#000"
-            android:textSize="25dp"
+            android:textSize="25sp"
             android:textStyle="bold" />
 
         <TextView
@@ -171,7 +168,7 @@
             android:fontFamily="sans-serif-smallcaps"
             android:text="@string/Techno"
             android:textColor="#000"
-            android:textSize="25dp"
+            android:textSize="25sp"
             android:textStyle="bold" />
 
         <TextView
@@ -186,7 +183,7 @@
             android:fontFamily="sans-serif-smallcaps"
             android:text="@string/Jazz"
             android:textColor="#fff"
-            android:textSize="25dp"
+            android:textSize="25sp"
             android:textStyle="bold" />
 
         <TextView
@@ -202,7 +199,7 @@
             android:gravity="center"
             android:text="@string/Blues"
             android:textColor="#fff"
-            android:textSize="25dp"
+            android:textSize="25sp"
             android:textStyle="bold" />
 
         <TextView
@@ -217,7 +214,7 @@
             android:fontFamily="sans-serif-smallcaps"
             android:text="@string/Metal"
             android:textColor="#fff"
-            android:textSize="25dp"
+            android:textSize="25sp"
             android:textStyle="bold" />
 
         <TextView
@@ -232,7 +229,7 @@
             android:fontFamily="sans-serif-smallcaps"
             android:text="@string/Country"
             android:textColor="#fff"
-            android:textSize="25dp"
+            android:textSize="25sp"
             android:textStyle="bold" />
 
         <TextView
@@ -247,9 +244,10 @@
             android:fontFamily="sans-serif-smallcaps"
             android:text="@string/Classical"
             android:textColor="#fff"
-            android:textSize="25dp"
+            android:textSize="25sp"
             android:textStyle="bold" />
 
     </GridLayout>
+
 </RelativeLayout>
 

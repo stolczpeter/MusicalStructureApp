@@ -10,103 +10,99 @@
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="5dp"
+        android:layout_marginBottom="10dp"
         android:layout_weight="0.6"
-        android:background="#000"
-        android:layout_marginBottom="10dp">
+        android:background="#000">
 
         <TextView
             android:id="@+id/menu"
             style="@style/MenuStyle"
-            android:textColor="#ffffff"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:fontFamily="sans-serif-smallcaps"
             android:layout_marginLeft="8dp"
-            android:textStyle="bold"
+            android:fontFamily="sans-serif-smallcaps"
             android:text="@string/menu"
-            android:textSize="34dp" />
+            android:textColor="#ffffff"
+            android:textSize="34sp"
+            android:textStyle="bold" />
 
         <View
-            android:layout_marginLeft="8dp"
             android:layout_width="135dp"
             android:layout_height="4dp"
             android:layout_below="@+id/menu"
+            android:layout_marginLeft="8dp"
             android:background="#fff">
 
         </View>
 
     </RelativeLayout>
+
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:layout_weight="1"
-        android:elevation="8dp">
+        android:layout_weight="1">
 
         <ImageView
             android:id="@+id/mymusicimage"
             style="@style/MenuStyle"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_centerVertical="true"
+            android:background="@drawable/mymusic"
             android:fontFamily="sans-serif-smallcaps"
             android:gravity="center_vertical"
-            android:scaleType="fitStart"
-            android:background="@drawable/mymusic"
             android:text="@string/menu"
-            android:textSize="25dp" />
+            android:textSize="25sp" />
 
         <Button
             android:id="@+id/mymusic"
             style="@style/CustomStyle"
-            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:textColor="#fff"
             android:layout_marginLeft="8dp"
             android:background="@android:color/transparent"
             android:fontFamily="sans-serif-smallcaps"
             android:text="@string/mainmenu1"
-            android:textSize="30dp"/>
+            android:textColor="#fff"
+            android:textSize="30sp" />
 
     </RelativeLayout>
+
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:layout_weight="1"
-        android:elevation="8dp">
+        android:layout_weight="1">
 
         <ImageView
             style="@style/MenuStyle"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_centerVertical="true"
-            android:fontFamily="sans-serif-smallcaps"
-            android:gravity="center_vertical"
             android:adjustViewBounds="true"
             android:background="@drawable/concert"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center_vertical"
             android:text="@string/menu" />
 
         <Button
             android:id="@+id/genre"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
             style="@style/ShuffleStyle"
-            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:background="@android:color/transparent"
             android:layout_marginLeft="8dp"
+            android:background="@android:color/transparent"
             android:fontFamily="sans-serif-smallcaps"
             android:text="@string/mainmenu2"
-            android:textSize="30dp"/>
+            android:textColor="#fff"
+            android:textSize="30sp" />
 
     </RelativeLayout>
 
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:layout_weight="1"
-        android:elevation="8dp">
+        android:layout_weight="1">
 
         <ImageView
             android:id="@+id/menu3"
@@ -114,25 +110,24 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_centerVertical="true"
+            android:background="@drawable/rock"
             android:fontFamily="sans-serif-smallcaps"
             android:gravity="center_vertical"
-            android:scaleType="fitStart"
-            android:background="@drawable/rock"
             android:text="@string/menu"
-            android:textSize="25dp" />
+            android:textSize="25sp" />
 
         <Button
             android:id="@+id/artists"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
             style="@style/CustomStyle"
-            android:background="@android:color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:textColor="#fff"
             android:layout_marginLeft="8dp"
+            android:background="@android:color/transparent"
             android:fontFamily="sans-serif-smallcaps"
             android:text="@string/mainmenu3"
-            android:textSize="30dp"/>
+            android:textColor="#fff"
+            android:textSize="30sp" />
 
     </RelativeLayout>
 
@@ -140,34 +135,31 @@
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:layout_weight="1"
-        android:elevation="8dp">
+        android:layout_weight="1">
 
         <ImageView
             android:id="@+id/radioimage"
             style="@style/MenuStyle"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_centerVertical="true"
+            android:background="@drawable/radio"
             android:fontFamily="sans-serif-smallcaps"
             android:gravity="center_vertical"
-            android:scaleType="fitStart"
-            android:background="@drawable/radio"
             android:text="@string/menu"
-            android:textSize="25dp" />
+            android:textSize="25sp" />
 
         <Button
             android:id="@+id/radio"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
             style="@style/CustomStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:textColor="#fff"
-            android:background="@android:color/transparent"
             android:layout_marginLeft="8dp"
+            android:background="@android:color/transparent"
             android:fontFamily="sans-serif-smallcaps"
             android:text="@string/mainmenu4"
-            android:textSize="30dp"/>
+            android:textColor="#fff"
+            android:textSize="30sp" />
 
     </RelativeLayout>
 
