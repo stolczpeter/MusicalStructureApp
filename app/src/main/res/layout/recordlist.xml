@@ -1,9 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageButton
+        android:id="@+id/backwardbutton4"
+        android:layout_width="25dp"
+        android:layout_height="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/backarrow"
+        android:alpha="0.95"
+        android:textSize="23sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp">
+    </View>
+
 <ListView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/list"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" />
+    android:layout_height="match_parent"
+    android:layout_marginBottom="30dp"/>
 
-
-
-
+</RelativeLayout>

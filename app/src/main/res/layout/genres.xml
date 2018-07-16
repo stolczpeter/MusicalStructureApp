@@ -116,6 +116,8 @@
 
     </GridLayout>
 
+
+
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -249,5 +251,26 @@
 
     </GridLayout>
 
+    <LinearLayout
+        android:id="@+id/backbuttonlayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:alpha="0.65"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/backwardbutton2"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="165dp"
+            android:background="@drawable/backarrow"
+            android:alpha="0.95" />
+
+    </LinearLayout>
+
 </RelativeLayout>
+
+
 

@@ -1,7 +1,10 @@
 package com.example.peterstolcz.musicalstructureapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 public class NowisplayingActivity extends AppCompatActivity {
@@ -19,5 +22,13 @@ public class NowisplayingActivity extends AppCompatActivity {
         String musicdata2 = getIntent().getStringExtra("ArtistName");
         SongTitleTextView2.setText(musicdata2);
 
+        ImageButton backwardimage3 = (ImageButton) findViewById(R.id.backwardbutton3);
+        backwardimage3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent nowisplayingbackwardintent = new Intent(NowisplayingActivity.this, MyMusicActivity.class);
+                startActivity(nowisplayingbackwardintent);
+            }
+        });
     }
 }

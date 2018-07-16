@@ -1,5 +1,6 @@
 package com.example.peterstolcz.musicalstructureapp;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Toast;
@@ -80,6 +81,15 @@ public class GenreActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getApplicationContext(), "You selected Classical!", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        ImageButton backwardimage2 = (ImageButton) findViewById(R.id.backwardbutton2);
+        backwardimage2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent genrebackwardintent = new Intent(GenreActivity.this, MainActivity.class);
+                startActivity(genrebackwardintent);
             }
         });
     }

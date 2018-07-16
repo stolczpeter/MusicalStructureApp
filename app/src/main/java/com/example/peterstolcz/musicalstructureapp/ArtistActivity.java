@@ -1,9 +1,12 @@
 package com.example.peterstolcz.musicalstructureapp;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ImageButton;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class ArtistActivity extends AppCompatActivity {
@@ -80,6 +83,15 @@ public class ArtistActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getApplicationContext(), "You selected Elvis Presley!", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        ImageButton backwardimage1 = (ImageButton) findViewById(R.id.backwardbutton1);
+        backwardimage1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent artistbackwardintent = new Intent(ArtistActivity.this, MainActivity.class);
+                startActivity(artistbackwardintent);
             }
         });
     }

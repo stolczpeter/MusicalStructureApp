@@ -32,4 +32,6 @@
     <string name="RADIO3subtext">Seriously. Music.</string>
     <string name="Metallicasong">Master of puppets</string>
     <string name="Metallica">Metallica</string>
+    <string name="Gobackbutton">BACK</string>
+
 </resources>

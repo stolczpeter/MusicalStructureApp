@@ -49,7 +49,6 @@ public class MainActivity extends AppCompatActivity {
 
         TextView radio = (TextView) findViewById(R.id.radio);
 
-        // Set a click listener on that View
         radio.setOnClickListener(new OnClickListener() {
             // The code in this method will be executed when the phrases View is clicked on.
             @Override

@@ -3,6 +3,7 @@ package com.example.peterstolcz.musicalstructureapp;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.AdapterView;
+import android.widget.ImageButton;
 import android.widget.ListView;
 import android.view.View;
 import android.content.Intent;
@@ -56,6 +57,17 @@ public class MyMusicActivity extends AppCompatActivity {
 
                 startActivity(musicintent);
             }
+        });
+
+
+        ImageButton backwardimage4 = (ImageButton) findViewById(R.id.backwardbutton4);
+        backwardimage4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent mymusicbackwardintent = new Intent(MyMusicActivity.this, MainActivity.class);
+                startActivity(mymusicbackwardintent);
+            }
+
         });
 
     }

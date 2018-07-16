@@ -1,5 +1,6 @@
 package com.example.peterstolcz.musicalstructureapp;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -40,6 +41,15 @@ public class RadioActivity extends AppCompatActivity {
 
         });
 
+        ImageButton backwardimage5 = (ImageButton) findViewById(R.id.backwardbutton5);
+        backwardimage5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent radiobackwardintent = new Intent(RadioActivity.this, MainActivity.class);
+                startActivity(radiobackwardintent);
+            }
+
+        });
     }
 }
 
